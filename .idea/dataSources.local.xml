@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails venum-store: development" uuid="4c7454eb-c39b-405f-8a89-a966af5cd183">
+      <user-name>parenteam_development</user-name>
+      <user-password>df9bdf98df99df9edf9f</user-password>
+      <schema-pattern>venum-store_development.pg_catalog venum-store_development.public</schema-pattern>
+      <default-schemas>venum-store_development.pg_catalog venum-store_development.public</default-schemas>
+    </data-source>
+    <data-source name="Rails venum-store: test" uuid="b5bbe356-7e4a-4e71-81ed-f97af3f666bf">
+      <first-sync>true</first-sync>
+    </data-source>
+    <data-source name="Rails venum-store: production" uuid="0c47e2ba-df4d-4c53-9aee-a104ac74239b">
+      <first-sync>true</first-sync>
+      <user-name>venum-store</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddffcdfefdfe4dfffdfe7df87dff9dffedfe5dff8dfefdff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+    </data-source>
+  </component>
+</project>

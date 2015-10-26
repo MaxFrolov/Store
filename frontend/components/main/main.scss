@@ -1,0 +1,23 @@
+.head-block_main {
+  width: 100%;
+
+    nav {
+      .head-block__nav {
+        border: 1px solid #123456;
+        padding: 20px;
+      }
+      ul {
+        list-style: none;
+        li {
+          float: left;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+
+.content-center {
+  width: 1070px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
