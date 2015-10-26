@@ -1,0 +1,19 @@
+.head-block__main
+  header
+    .content-center
+      .container-fluid
+        .row
+          .col-sm-3.head_block__logo
+            img src='<%=asset_path "assets/img/logo.png"%>'
+          .col-sm-6.head_block__search
+            input type="search" placeholder="enter a keyword to search"
+          .col-sm-3.head_block__cart
+            shopping-cart
+
+  nav
+    .content-center
+      ul
+        li ng-repeat="navlabel in navLabels"
+          a{{navlabel.label}}
+      .clearfix
+
