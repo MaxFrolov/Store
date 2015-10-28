@@ -206,15 +206,16 @@
     <orderEntry type="library" scope="PROVIDED" name="rack (v1.6.4, RVM: ruby-1.9.3-p551 [tuloko]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-test (v0.6.3, RVM: ruby-1.9.3-p551 [tuloko]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails (v4.2.1, RVM: ruby-1.9.3-p551 [tuloko]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rails-assets-angular (v1.4.5, RVM: ruby-1.9.3-p551 [tuloko]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rails-assets-angular-bootstrap (v0.13.4, RVM: ruby-1.9.3-p551 [tuloko]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rails-assets-angular (v1.4.7, RVM: ruby-1.9.3-p551 [tuloko]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rails-assets-angular-animate (v1.4.7, RVM: ruby-1.9.3-p551 [tuloko]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rails-assets-angular-bootstrap (v0.14.3, RVM: ruby-1.9.3-p551 [tuloko]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails-assets-angular-ui-event (v1.0.0, RVM: ruby-1.9.3-p551 [tuloko]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails-assets-angular-ui-indeterminate (v1.0.0, RVM: ruby-1.9.3-p551 [tuloko]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rails-assets-angular-ui-mask (v1.4.5, RVM: ruby-1.9.3-p551 [tuloko]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rails-assets-angular-ui-mask (v1.4.7, RVM: ruby-1.9.3-p551 [tuloko]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails-assets-angular-ui-scroll (v1.3.2, RVM: ruby-1.9.3-p551 [tuloko]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rails-assets-angular-ui-scrollpoint (v1.0.1, RVM: ruby-1.9.3-p551 [tuloko]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rails-assets-angular-ui-uploader (v1.1.1, RVM: ruby-1.9.3-p551 [tuloko]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rails-assets-angular-ui-validate (v1.1.1, RVM: ruby-1.9.3-p551 [tuloko]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rails-assets-angular-ui-scrollpoint (v1.1.0, RVM: ruby-1.9.3-p551 [tuloko]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rails-assets-angular-ui-uploader (v1.1.2, RVM: ruby-1.9.3-p551 [tuloko]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rails-assets-angular-ui-validate (v1.2.1, RVM: ruby-1.9.3-p551 [tuloko]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails-assets-bootstrap (v3.3.5, RVM: ruby-1.9.3-p551 [tuloko]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails-assets-jquery (v2.1.4, RVM: ruby-1.9.3-p551 [tuloko]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rails-assets-lodash (v2.4.2, RVM: ruby-1.9.3-p551 [tuloko]) [gem]" level="application" />

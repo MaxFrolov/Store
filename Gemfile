@@ -42,6 +42,7 @@ gem 'spa_rails', github: 'Rezonans/spa_rails'
 gem 'bootstrap-sass', '~> 3.3.5'
 
 source 'https://rails-assets.org' do
+  gem 'rails-assets-angular-animate'
   gem 'rails-assets-angular'
   gem 'rails-assets-ui-utils'
   gem 'rails-assets-ui-router'

@@ -1,0 +1,6 @@
+uib-carousel interval="carouselInterval"
+  uib-slide ng-repeat="slide in slides" active="slide.active"
+    img ng-src="{{slide.image}}"
+    .carousel-caption
+      p {{slide.text}}
+
