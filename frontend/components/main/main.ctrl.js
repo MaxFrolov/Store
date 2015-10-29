@@ -28,6 +28,5 @@ angular.module('app').controller('MainCtrl', function($scope, Restangular) {
 
   Restangular.all('products').getList().then(function(responce) {
     $scope.products = responce;
-    console.log(responce);
   });
 });
