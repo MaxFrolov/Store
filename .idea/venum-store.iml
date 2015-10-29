@@ -173,6 +173,7 @@
     <orderEntry type="library" scope="PROVIDED" name="actionmailer (v4.2.1, RVM: ruby-1.9.3-p551 [tuloko]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionpack (v4.2.1, RVM: ruby-1.9.3-p551 [tuloko]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionview (v4.2.1, RVM: ruby-1.9.3-p551 [tuloko]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="active_model_serializers (v0.8.3, RVM: ruby-1.9.3-p551 [tuloko]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activejob (v4.2.1, RVM: ruby-1.9.3-p551 [tuloko]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activemodel (v4.2.1, RVM: ruby-1.9.3-p551 [tuloko]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activerecord (v4.2.1, RVM: ruby-1.9.3-p551 [tuloko]) [gem]" level="application" />
@@ -228,6 +229,7 @@
     <orderEntry type="library" scope="PROVIDED" name="railties (v4.2.1, RVM: ruby-1.9.3-p551 [tuloko]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rake (v10.4.2, RVM: ruby-1.9.3-p551 [tuloko]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rdoc (v4.2.0, RVM: ruby-1.9.3-p551 [tuloko]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="responders (v2.1.0, RVM: ruby-1.9.3-p551 [tuloko]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.4.18, RVM: ruby-1.9.3-p551 [tuloko]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v5.0.4, RVM: ruby-1.9.3-p551 [tuloko]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sdoc (v0.4.1, RVM: ruby-1.9.3-p551 [tuloko]) [gem]" level="application" />
