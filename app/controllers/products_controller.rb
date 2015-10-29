@@ -4,6 +4,23 @@ class ProductsController < ApplicationController
   end
 
   def index
-    @product = Product.all
+    @products = Product.all
+    render_resources @products
   end
+
+  def create
+    @product
+    render_resource_or_errors(@product)
+  end
+
+  def update
+    @product.update(user_params)
+    render_resource_or_errors(@product)
+  end
+end
+
+private
+
+def user_params
+  params.require(:resource).permit(:name, :description, :amount)
 end

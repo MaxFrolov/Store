@@ -1,4 +1,4 @@
-angular.module('app').controller('MainCtrl', function($scope) {
+angular.module('app').controller('MainCtrl', function($scope, Restangular) {
   $scope.carouselInterval = 5000;
   $scope.slides = [
     {image: '/assets/assets/img/carousel-img/main-carousel-1.jpg', text: 'Welcome to lookcare store'},
@@ -25,4 +25,9 @@ angular.module('app').controller('MainCtrl', function($scope) {
       label : 'Contacts'
     }
   ];
+
+  Restangular.all('products').getList().then(function(responce) {
+    $scope.products = responce;
+    console.log(responce);
+  });
 });

@@ -36,10 +36,14 @@ group :development, :test do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
+
+gem 'responders'
 gem 'slim'
 gem 'angular-rails-templates', github: 'sars/angular-rails-templates'
 gem 'spa_rails', github: 'Rezonans/spa_rails'
 gem 'bootstrap-sass', '~> 3.3.5'
+
+gem 'active_model_serializers', '0.8.3'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-angular-animate'
