@@ -36,6 +36,62 @@ main
     .main-product__content
       .main-product ng-repeat="product in products"
         img ng-src='assets/assets/img/all-products/{{product.id}}.jpg'
-        h3 {{ product.name }}
-        p {{ product.short_description }}
-        a.btn.btn-default add to cart
+        h3
+          a href="#" {{ product.name }}
+        .price
+          p ${{ product.price }}
+        .rating
+          uib-rating ng-model="rate" max="max" readonly="isReadonly" on-hover="hoveringOver(value)" on-leave="overStar = null" titles="['one','two','three']" aria-labelledby="default-rating"
+        button.btn.btn-default type="button" add to cart
+.clearfix
+.scrolling-section
+  .content-center
+    .container-fluid.row
+      .col-sm-3
+        .scrolling-section__round
+          i.fa.fa-plane
+        h4 Free shipping
+        p Free shipping on all Ukraine order
+        hr
+        p.description Nulla ac nisi egestas metus aliquet euismod. Sed pulvinar lorem at pretium.
+      .col-sm-3
+        .scrolling-section__round
+          i.fa.fa-money
+        h4 Money Guarantee
+        p 30 days money back guarantee !
+        hr
+        p.description Nulla ac nisi egestas metus aliquet euismod. Sed pulvinar lorem at pretium.
+      .col-sm-3
+        .scrolling-section__round
+          i.fa.fa-clock-o
+        h4 Store Hours
+        p Open: 9:00AM - Close: 21:00PM
+        hr
+        p.description Nulla ac nisi egestas metus aliquet euismod. Sed pulvinar lorem at pretium.
+      .col-sm-3
+        .scrolling-section__round
+          i.fa.fa-life-ring
+        h4 Support 24/7
+        p We support online 24 hours a day
+        hr
+        p.description Nulla ac nisi egestas metus aliquet euismod. Sed pulvinar lorem at pretium.
+.main-categories
+  .content-center
+    h1 Categories
+    .container.row
+      .col-sm-4.main-categories__wrapper
+        .main-categories__names
+          p MENSWEAR
+          span Intimates Fall/Winter 2016
+        img src='<%=asset_path "assets/img/category-img/first.jpg"%>'
+      .col-sm-4.main-categories__wrapper
+        .main-categories__names
+          p ACCESSORIES
+          span Get a new look with Our collection
+        img src='<%=asset_path "assets/img/category-img/second.jpg"%>'
+      .col-sm-4.main-categories__wrapper
+        .main-categories__names
+          p WOMENSWEAR
+          span Our Collection new arrivals
+        img src='<%=asset_path "assets/img/category-img/third.jpg"%>'
+
