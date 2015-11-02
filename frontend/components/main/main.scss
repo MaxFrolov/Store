@@ -118,3 +118,25 @@ main .carousel-block {
     }
   }
 }
+
+.main-product__content {
+  .main-product {
+    position: relative;
+    padding: 5px;
+    border: 1px solid #d7d7d7;
+    float: left;
+    width: 23%;
+    margin: 0 1% 50px;
+
+    img {
+      width: 100%;
+    }
+
+    a {
+      text-transform: uppercase;
+      position: absolute;
+      bottom: -17px;
+      left: 23%;
+    }
+  }
+}

@@ -34,3 +34,8 @@ main
       li
         a href="#" RANDOM PRODUCTS
     .main-product__content
+      .main-product ng-repeat="product in products"
+        img ng-src='assets/assets/img/all-products/{{product.id}}.jpg'
+        h3 {{ product.name }}
+        p {{ product.short_description }}
+        a.btn.btn-default add to cart
