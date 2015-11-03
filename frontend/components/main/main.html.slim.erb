@@ -21,7 +21,7 @@ main
     carousel-wrapper slides="slides" carousel-interval="carouselInterval"
 .main-product__tabs
   .content-center
-    h1 product tabs
+    h1.brand-header product tabs
     ul
       li
         a href="#" FEATURED PRODUCTS
@@ -33,9 +33,125 @@ main
         '/
       li
         a href="#" RANDOM PRODUCTS
-    .main-product__content
+    .main-product__content.container-fluid.row
       .main-product ng-repeat="product in products"
         img ng-src='assets/assets/img/all-products/{{product.id}}.jpg'
-        h3 {{ product.name }}
-        p {{ product.short_description }}
-        a.btn.btn-default add to cart
+        h3
+          a href="#" {{ product.name }}
+        .price
+          p ${{ product.price }}
+        .rating
+          uib-rating ng-model="rate" max="max" readonly="isReadonly" on-hover="hoveringOver(value)" on-leave="overStar = null" titles="['one','two','three']" aria-labelledby="default-rating"
+        button.btn.btn-default type="button" add to cart
+.scrolling-section
+  .content-center
+    .container-fluid.row
+      .col-sm-3
+        .scrolling-section__round
+          i.fa.fa-plane
+        h4 Free shipping
+        p Free shipping on all Ukraine order
+        hr
+        p.description Nulla ac nisi egestas metus aliquet euismod. Sed pulvinar lorem at pretium.
+      .col-sm-3
+        .scrolling-section__round
+          i.fa.fa-money
+        h4 Money Guarantee
+        p 30 days money back guarantee !
+        hr
+        p.description Nulla ac nisi egestas metus aliquet euismod. Sed pulvinar lorem at pretium.
+      .col-sm-3
+        .scrolling-section__round
+          i.fa.fa-clock-o
+        h4 Store Hours
+        p Open: 9:00AM - Close: 21:00PM
+        hr
+        p.description Nulla ac nisi egestas metus aliquet euismod. Sed pulvinar lorem at pretium.
+      .col-sm-3
+        .scrolling-section__round
+          i.fa.fa-life-ring
+        h4 Support 24/7
+        p We support online 24 hours a day
+        hr
+        p.description Nulla ac nisi egestas metus aliquet euismod. Sed pulvinar lorem at pretium.
+.main-categories
+  .content-center
+    h1.brand-header Categories
+    .container-fluid.row
+      .col-sm-4.main-categories__wrapper
+        .main-categories__names
+          p MENSWEAR
+          span Intimates Fall/Winter 2016
+        img src='<%=asset_path "assets/img/category-img/first.jpg"%>'
+      .col-sm-4.main-categories__wrapper
+        .main-categories__names
+          p ACCESSORIES
+          span Get a new look with Our collection
+        img src='<%=asset_path "assets/img/category-img/second.jpg"%>'
+      .col-sm-4.main-categories__wrapper
+        .main-categories__names
+          p WOMENSWEAR
+          span Our Collection new arrivals
+        img src='<%=asset_path "assets/img/category-img/third.jpg"%>'
+.main-brands
+  .content-center
+    .container-fluid.row
+      ul
+        li
+          img src='<%=asset_path "assets/img/carousel-brands/brand1.png"%>'
+        li
+          img src='<%=asset_path "assets/img/carousel-brands/brand2.png"%>'
+        li
+          img src='<%=asset_path "assets/img/carousel-brands/brand3.png"%>'
+        li
+          img src='<%=asset_path "assets/img/carousel-brands/brand4.png"%>'
+        li
+          img src='<%=asset_path "assets/img/carousel-brands/brand5.png"%>'
+        li
+          img src='<%=asset_path "assets/img/carousel-brands/brand6.png"%>'
+footer
+  .content-center
+    .container-fluid.row
+      .col-sm-3
+        h3 Shop Location
+        p
+          ' Nam libero tempore, cum soluta nobis est eligendi optio cumque
+          | nihil impedit quo minus id quod maxime placeat facere possimus
+      .col-sm-9
+        .col-sm-3
+          h3 Information
+          a href="#" About Us
+          br
+          a href="#" Delivery Information
+          br
+          a href="#" Privacy Policy
+          br
+          a href="#" Terms & Conditions
+        .col-sm-3
+          h3 Service
+          a href="#" Contact Us
+          br
+          a href="#" Returns
+          br
+          a href="#" Site Map
+        .col-sm-3
+          h3 Extras
+          a href="#" Brands
+          br
+          a href="#" Gift Vouchers
+          br
+          a href="#" Affiliates
+          br
+          a href="#" Specials
+        .col-sm-3
+          h3 My Account
+          a href="#" My Account
+          br
+          a href="#" Order History
+          br
+          a href="#" Wish List
+          br
+          a href="#" Newsletter
+.footer-copyrights
+  p All rights reserved (c)
+
