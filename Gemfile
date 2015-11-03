@@ -37,6 +37,7 @@ group :development, :test do
   gem 'spring'
 end
 
+gem 'faker', '~> 1.5'
 gem 'responders'
 gem 'slim'
 gem 'angular-rails-templates', github: 'sars/angular-rails-templates'

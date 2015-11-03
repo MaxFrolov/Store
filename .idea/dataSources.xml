@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="2333994945">
-    <data-source source="LOCAL" name="Rails venum-store: development" uuid="4c7454eb-c39b-405f-8a89-a966af5cd183">
+  <component name="DataSourceManagerImpl" format="xml" hash="1720512071">
+    <data-source source="LOCAL" name="Rails venum-store: development" uuid="5767f49f-253a-485e-9434-7a33b11da3e5">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:venum-store_development</jdbc-url>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/myapp_dev</jdbc-url>
       <libraries>
         <library>
           <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/postgresql-driver-license.txt</url>
         </library>
         <library>
-          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/postgresql-9.3-1100.jdbc4.jar</url>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/postgresql-9.4-1201.jdbc4.jar</url>
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="Rails venum-store: test" uuid="b5bbe356-7e4a-4e71-81ed-f97af3f666bf">
+    <data-source source="LOCAL" name="Rails venum-store: test" uuid="380f4787-3724-4d1d-b422-36880f5d3776">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:venum-store_test</jdbc-url>
+      <jdbc-url>jdbc:postgresql:venum_test</jdbc-url>
       <libraries>
         <library>
           <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/postgresql-driver-license.txt</url>
         </library>
         <library>
-          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/postgresql-9.3-1100.jdbc4.jar</url>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/postgresql-9.4-1201.jdbc4.jar</url>
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="Rails venum-store: production" uuid="0c47e2ba-df4d-4c53-9aee-a104ac74239b">
+    <data-source source="LOCAL" name="Rails venum-store: production" uuid="bf77814d-03e9-4991-9d3d-30deefb42db4">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:venum-store_production</jdbc-url>
+      <jdbc-url>jdbc:postgresql:venum_prod</jdbc-url>
       <libraries>
         <library>
           <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/postgresql-driver-license.txt</url>
         </library>
         <library>
-          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/postgresql-9.3-1100.jdbc4.jar</url>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/postgresql-9.4-1201.jdbc4.jar</url>
         </library>
       </libraries>
     </data-source>
