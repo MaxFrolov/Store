@@ -1,5 +1,7 @@
 * {
   outline: none;
+  margin: 0;
+  padding: 0;
 }
 
 .head-block__main {
@@ -90,21 +92,24 @@ main .carousel-block {
     display: block;
     position: absolute;
     top: -300px;
-    left: 250px;
+    left: 0;
+    right: 0;
   }
+}
+
+h1.brand-header {
+  display: block;
+  margin: 0 auto;
+  text-transform: uppercase;
+  border-bottom: 3px solid black;
+  width: 300px;
+  line-height: 1.5;
 }
 
 .main-product__tabs {
   padding-top: 50px;
+  padding-bottom: 50px;
 
-  h1 {
-    display: block;
-    margin: 0 auto;
-    text-transform: uppercase;
-    border-bottom: 3px solid black;
-    width: 300px;
-    line-height: 1.5;
-  }
   ul {
     margin-top: 30px;
     padding: 0;
@@ -171,6 +176,7 @@ main .carousel-block {
   height: 300px;
   width: 100%;
   background: asset-url('assets/img/scrolling-pages/fashion-lifestyle.jpg') no-repeat bottom center fixed;
+  background-size: cover;
 }
 
 .scrolling-section__round {
@@ -194,6 +200,11 @@ main .carousel-block {
 .main-categories__wrapper {
   position: relative;
   padding-top: 50px;
+  padding-bottom: 50px;
+
+  img {
+    width: 100%;
+  }
 
   .main-categories__names {
     padding-top: 20px;
@@ -214,4 +225,46 @@ main .carousel-block {
       font-size: 16px;
     }
   }
+}
+
+.main-brands {
+  height: 200px;
+  width: 100%;
+  background: rgba(234, 234, 234, 0.34);
+  padding: 50px 0;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+
+
+  ul {
+    list-style: none;
+
+    li {
+      float: left;
+      margin: 0 4px;
+    }
+  }
+}
+
+footer {
+  width: 100%;
+  background: #2A2A2A;
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  h3 {
+    color: #ffffff;
+  }
+
+  p {
+    color: #999999;
+  }
+}
+.footer-copyrights {
+  height: 50px;
+  background: #1F1F1F;
+  text-align: center;
+  padding-top: 15px;
+  color: #fff;
 }
