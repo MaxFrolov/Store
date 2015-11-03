@@ -5,5 +5,6 @@ angular.module('app', [
   'ui.router',
   'restangular',
   'ui.bootstrap',
-  'ui.bootstrap.carousel'
+  'ui.bootstrap.carousel',
+  'ui.bootstrap.rating'
 ]);

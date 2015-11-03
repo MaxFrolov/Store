@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1720512071">
+  <component name="DataSourceManagerImpl" format="xml" hash="3275769674">
     <data-source source="LOCAL" name="Rails venum-store: development" uuid="5767f49f-253a-485e-9434-7a33b11da3e5">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>

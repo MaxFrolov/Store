@@ -40,6 +40,7 @@ end
 gem 'faker', '~> 1.5'
 gem 'responders'
 gem 'slim'
+gem 'font-awesome-rails'
 gem 'angular-rails-templates', github: 'sars/angular-rails-templates'
 gem 'spa_rails', github: 'Rezonans/spa_rails'
 gem 'bootstrap-sass', '~> 3.3.5'

@@ -1,0 +1,44 @@
+.main-product__content {
+  .main-product {
+    position: relative;
+    padding: 5px 10px 15px;
+    border: 1px solid #d7d7d7;
+    float: left;
+    width: 23%;
+    margin: 0 1% 50px;
+
+    img {
+      width: 100%;
+    }
+
+    button {
+      text-transform: uppercase;
+      position: absolute;
+      bottom: -17px;
+      left: 23%;
+    }
+
+    h3 {
+      margin-bottom: 10px;
+
+      a {
+        color: #282828;
+        font-size: 14px;
+        font-weight: bold;
+      }
+    }
+
+    .price {
+      float: left;
+
+      p {
+        color: #0f99de;
+        font-size: 18px;
+      }
+    }
+    .rating {
+      margin-top: 5px;
+      float: right;
+    }
+  }
+}

@@ -5,6 +5,13 @@ angular.module('app').controller('MainCtrl', function($scope, Restangular) {
     {image: '/assets/assets/img/carousel-img/main-carousel-2.jpg', text: 'Welcome to lookcare store'}
   ];
 
+  $scope.isReadonly = true;
+  $scope.max = 5;
+  $scope.hoveringOver = function(value) {
+    $scope.overStar = value;
+    $scope.percent = 100 * (value / $scope.max);
+  };
+
   $scope.navLabels = [
     {
       label : 'Home'
